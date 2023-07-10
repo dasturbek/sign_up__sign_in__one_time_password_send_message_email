@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sign Up</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>qrc/dasturbek.png</normaloff>qrc/dasturbek.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+	background-image: url(:/salom/background.png);
+	background-repeat: no-repeat;
+ 	 background-position: center;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>650</width>
+     <height>850</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>30</number>
+    </property>
+    <property name="topMargin">
+     <number>30</number>
+    </property>
+    <property name="rightMargin">
+     <number>30</number>
+    </property>
+    <property name="bottomMargin">
+     <number>30</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="minimumSize">
+       <size>
+        <width>471</width>
+        <height>750</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>471</width>
+        <height>750</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#frame_3{
+border-radius:10px ;
+background-color: rgba(0,0,0,0.2);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>110</y>
+         <width>371</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_4{
+    border-radius:10px ;
+	background-color: rgba(1, 57, 44, 0.5);
+} </string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="leftMargin">
+         <number>50</number>
+        </property>
+        <property name="topMargin">
+         <number>35</number>
+        </property>
+        <property name="rightMargin">
+         <number>50</number>
+        </property>
+        <property name="bottomMargin">
+         <number>35</number>
+        </property>
+        <item row="2" column="0">
+         <widget class="QLineEdit" name="fam">
+          <property name="styleSheet">
+           <string notr="true">height:40px;
+color: #fff;
+font-size:20px;
+margin-bottom:15px;
+background-color: rgba(1, 57, 44, 0.5);
+border:none;
+border-bottom: 2px solid rgb(26, 109, 255);
+border-top: 1px solid rgba(53, 106, 139, 0.9);
+border-left: 1px solid rgba(53, 106, 139, 0.9);
+border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Username</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLineEdit" name="email_c">
+          <property name="styleSheet">
+           <string notr="true">height:40px;
+color: #fff;
+font-size:20px;
+margin-bottom:15px;
+background-color: rgba(1, 57, 44, 0.5);
+border:none;
+border-bottom: 2px solid rgb(26, 109, 255);
+border-top: 1px solid rgba(53, 106, 139, 0.9);
+border-left: 1px solid rgba(53, 106, 139, 0.9);
+border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
+          </property>
+          <property name="placeholderText">
+           <string>example@gmail.com</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 255, 255); </string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLineEdit" name="password1">
+          <property name="styleSheet">
+           <string notr="true">height:40px;
+color: #fff;
+font-size:20px;
+margin-bottom:15px;
+background-color: rgba(1, 57, 44, 0.5);
+border:none;
+border-bottom: 2px solid rgb(26, 109, 255);
+border-top: 1px solid rgba(53, 106, 139, 0.9);
+border-left: 1px solid rgba(53, 106, 139, 0.9);
+border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>Password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLineEdit" name="ism">
+          <property name="styleSheet">
+           <string notr="true">height:40px;
+color: #fff;
+font-size:20px;
+margin-bottom:15px;
+background-color: rgba(1, 57, 44, 0.5);
+border:none;
+border-bottom: 2px solid rgb(26, 109, 255);
+border-top: 1px solid rgba(53, 106, 139, 0.9);
+border-left: 1px solid rgba(53, 106, 139, 0.9);
+border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
+          </property>
+          <property name="placeholderText">
+           <string>Fullname</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QPushButton" name="signUp">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: #1A6DFF;;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  background-color: rgb(255, 255, 255, 0.9);
+  margin: 3px;
+  color:#1A6DFF;
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Next</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="styleSheet">
+           <string notr="true">margin-bottom:15px;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Show password</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLineEdit" name="password2">
+          <property name="styleSheet">
+           <string notr="true">height:40px;
+color: #fff;
+font-size:20px;
+margin-bottom:15px;
+background-color: rgba(1, 57, 44, 0.5);
+border:none;
+border-bottom: 2px solid rgb(26, 109, 255);
+border-top: 1px solid rgba(53, 106, 139, 0.9);
+border-left: 1px solid rgba(53, 106, 139, 0.9);
+border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>Repassword</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QPushButton" name="certificate">
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">.QPushButton {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: #1A6DFF;;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  background-color: rgb(255, 255, 255, 0.9);
+  margin: 3px;
+  color:#1A6DFF;
+}
+</string>
+          </property>
+          <property name="text">
+           <string>Certificate</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="acount_icon_2">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>0</y>
+         <width>151</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:75px;
+padding:5px</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>qrc/user_log.png</normaloff>qrc/user_log.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>185</width>
+         <height>185</height>
+        </size>
+       </property>
+       <property name="shortcut">
+        <string>Ctrl+S</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="orqaga_2">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>700</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">.QPushButton {
+ background-color: rgba(255, 255, 255,0);
+  border: none;
+  color: #fff;
+  text-align: center;
+ font-size: 16px;
+}
+.QPushButton:hover{
+  background-color: rgba(255, 255, 255,0);
+ color:#000;
+ font-size: 16px;
+} </string>
+       </property>
+       <property name="text">
+        <string>Sign In</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>acount_icon_2</tabstop>
+  <tabstop>ism</tabstop>
+  <tabstop>fam</tabstop>
+  <tabstop>email_c</tabstop>
+  <tabstop>password1</tabstop>
+  <tabstop>password2</tabstop>
+  <tabstop>checkBox_2</tabstop>
+  <tabstop>signUp</tabstop>
+  <tabstop>orqaga_2</tabstop>
+ </tabstops>
+ <resources>
+  <include location="qrc/qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
