@@ -491,7 +491,7 @@ border-right: 1px solid rgba(53, 106, 139, 0.9);</string>
 </string>
           </property>
           <property name="text">
-           <string>Kirish</string>
+           <string>Next</string>
           </property>
          </widget>
         </item>
